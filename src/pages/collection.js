@@ -10,7 +10,10 @@ const Collection = ({ data }) => {
   return (
     <div className="full-container full-height flex flex-column">
       <Link style={{ textDecoration: "none" }} to="/">
-        <h1 style={h1} className="flex flex-center align-center"><div style={{height: "45px"}}>Jasmine</div><div className="sub"> | Ceramics</div></h1>
+        <h1 style={h1} className="flex flex-center align-center">
+          <div style={{ height: "45px" }}>Jasmine</div>
+          <div className="sub"> | Ceramics</div>
+        </h1>
       </Link>
       <div>
         {data.allImageSharp.edges.map((el, i) => (
