@@ -31,20 +31,44 @@ body, #gatsby-focus-wrapper, #___gatsby {
 }
 
 h1 {
-  color: #2D3C3F;
-  font-size: 58px;
-  text-align: left;
+  font-family: 'Candal', sans-serif;
+  text-transform: uppercase;
+  color: #8A9598;
+  padding: 0;
+  margin: 0;
+  font-size: 32px;
+  margin-bottom: 50px;
+}
+
+h1 .sub {
+  font-family: 'Spectral', serif;;
+  text-transform: capitalize;
+  font-weight: 300;
+  font-size: 24px;
 }
 
 h2 {
   color: #2D3C3F;
+  font-size: 58px;
+  text-align: left;
+  font-weight: 900;
+  line-height: 1.2em;
+}
+
+h3 {
+  color: #2D3C3F;
   text-align: left;
 }
 
+.sib-form {
+  padding: 0;
+}
+
 .title {
-  width: 538px;
+  width: 583px;
   max-width: 100%;
   margin: 0 auto;
+  padding: 0 20px;
 }
 
 .full-height {
@@ -117,6 +141,7 @@ h2 {
   max-width: 430px;
   display: inline-block;
   position: relative;
+  margin: 0 3px;
 }
 
 .number {
@@ -129,28 +154,43 @@ h2 {
   height: 30px;
 }
 
-.gatsby-image-wrapper {
-  margin: 6px;
-}
-
 iframe {
-  width: 640px;
+  width: 580px;
   height: 450px;
   margin-left: auto;
   margin-right: auto;
   max-width: 100%;
 }
 
+.link {
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+  color: white;
+  font-size: 46px;
+}
+
 @media screen and (max-width: 445px) {
-  .gatsby-image-wrapper {
-    margin-left: 0;
-    margin-right: 0;
+  .imgWrapper {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .small-column {
+    display: block;
+   }
+  .imgHome {
+    max-width: 536px;
+  }
+  h1 {
+    margin-top: 24px;
   }
 }
 
 @media screen and (max-width: 645px) {
   iframe {
-    height: 600px;
+    height: 550px;
   }
 }
 

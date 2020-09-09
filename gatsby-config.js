@@ -20,6 +20,9 @@ module.exports = {
             family: `Spectral`,
             variants: [`300`, `500`, `700`],
           },
+          {
+            family: `Candal`,
+          },
         ],
       },
     },
