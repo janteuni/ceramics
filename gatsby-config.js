@@ -7,9 +7,8 @@
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: `Mugs selection`,
+    title: `Jasmine Ceramics`,
   },
-  pathPrefix: process.env.PATH_PREFIX || "ceramics",
   plugins: [
     `gatsby-transformer-remark`,
     {
